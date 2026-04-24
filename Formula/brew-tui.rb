@@ -5,7 +5,7 @@ class BrewTui < Formula
   sha256 "4ceb9e574c361898f3cacb907ee0083b9fec4e8f2141a4614b0fea549b33f8d5"
   license "MIT"
 
-  depends_on "node@18"
+  depends_on "node@22"
 
   def install
     system "npm", "install", *std_npm_args

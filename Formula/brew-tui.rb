@@ -1,8 +1,8 @@
 class BrewTui < Formula
   desc "Visual TUI for Homebrew package management"
   homepage "https://github.com/MoLinesGitHub/Brew-TUI"
-  url "https://registry.npmjs.org/brew-tui/-/brew-tui-0.3.2.tgz"
-  sha256 "f059289b2da407b726973fb2d1aa648b32b79444b1d18551c30243a58f230462"
+  url "https://registry.npmjs.org/brew-tui/-/brew-tui-0.3.3.tgz"
+  sha256 "45edd3ee743ccd5fa0862a944bded901c4fa2b5be3bfd0b5387f684b24929815"
   license "MIT"
 
   depends_on "node@22"

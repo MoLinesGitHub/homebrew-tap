@@ -1,11 +1,11 @@
 cask "brewbar" do
-  version "0.3.3"
-  sha256 "f314a10faa36e8b4119e906521b91030d1daf6fce88af8a6f5e52e45bab22064"
+  version "0.6.1"
+  sha256 "7347299e8c748e24ca5489f4c485a058413908cf6f2e2138b86737600581357d"
 
-  url "https://github.com/MoLinesGitHub/Brew-TUI/releases/download/v#{version}/BrewBar.app.zip"
+  url "https://github.com/MoLinesDesigns/Brew-TUI/releases/download/v#{version}/BrewBar.app.zip"
   name "BrewBar"
   desc "macOS menu bar companion for Brew-TUI (Pro feature)"
-  homepage "https://github.com/MoLinesGitHub/Brew-TUI"
+  homepage "https://github.com/MoLinesDesigns/Brew-TUI"
 
   depends_on formula: "brew-tui"
   depends_on macos: ">= :sonoma"

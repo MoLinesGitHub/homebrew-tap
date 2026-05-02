@@ -1,6 +1,6 @@
 cask "brewbar" do
-  version "0.7.0"
-  sha256 "523f29f97399207f535a42d0f89de7b183f07996fa56622c913b3c019f664430"
+  version "0.8.0"
+  sha256 "3a221979df5ef08dd1d7bf156d2d3bc3648921c094c50c94bc4de3dc1307666a"
 
   url "https://github.com/MoLinesDesigns/Brew-TUI/releases/download/v#{version}/BrewBar.app.zip"
   name "BrewBar"
